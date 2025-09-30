@@ -1,2 +1,36 @@
-# Bootcamp_DIO_e_Santander-Ciberseguran-a_2025
-Repositório para a trilha completa de Cibersegurança do Santander 2025, em parceria com a DIO, com 31h de conteúdo prático e teórico para proteção de sistemas, análise de vulnerabilidades e técnicas de segurança ofensiva.
+# Trilha Santander Cibersegurança 2025
+
+Repositório com os exercícios, laboratórios e tarefas realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.
+
+## 📈 Andamento
+
+**Sistema de acompanhamento:**  
+Todas as pastas terão esta indicação de status para monitorar o andamento.
+
+- 🟢 **FINALIZADO** - Atividades concluídas e revisadas
+- 🟡 **EM DESENVOLVIMENTO** - Em fase de execução/estudo
+
+## 🎯 Propósito
+
+Este repositório registra meu percurso na formação em cibersegurança, funcionando como:
+- Acervo de competências em segurança ofensiva e defensiva
+- Histórico de desenvolvimento nos conceitos e ferramentas
+- Local para divulgar observações e descobertas
+
+## 🔧 Materiais Produzidos
+
+- **Ambientes Práticos**: Preparo e uso de ferramentas empregadas no treinamento
+- **Exercícios de Programação**: Solução de questões ligadas à segurança da informação
+- **Verificação de Vulnerabilidades**: Detecção e registros
+
+## 🚀 Como Utilizar
+
+Cada diretório ou arquivo refere-se a um tópico do bootcamp, incluindo:
+- Códigos dos exercícios
+- Relatórios dos laboratórios
+- Observações e apontamentos técnicos
+- Configurações e scripts de apoio
+
+---
+
+*Criado durante o Santander Cibersegurança 2025 | DIO*
