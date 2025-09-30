@@ -7,9 +7,10 @@ Implementar e documentar um projeto prático de segurança ofensiva em ambiente 
 
 ## ⚠️ Aviso Importante
 **ESTE LABORATÓRIO É EXCLUSIVAMENTE PARA FINS EDUCACIONIS**
-- Todos os testes são realizados em ambiente controlado e isolado
-- É estritamente proibido replicar estas técnicas sem autorização explícita
-- Não me responsabilizo pelo uso indevido deste conteúdo  
+> [!CAUTION]  
+> - Todos os testes são realizados em ambiente controlado e isolado  
+> - É estritamente proibido replicar estas técnicas sem autorização explícita
+> - Não me responsabilizo pelo uso indevido deste conteúdo  
 
 ## Configuração do Ambiente
 - Duas máquinas virtuais no VirtualBox (Kali Linux + Metasploitable 2)
