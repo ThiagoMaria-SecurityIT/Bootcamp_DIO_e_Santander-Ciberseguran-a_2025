@@ -9,8 +9,9 @@ _Imagem abaixo: Máquinas virtuais configuradas no VirtualBox, rede configurada,
 <img width="1763" height="970" alt="image" src="https://github.com/user-attachments/assets/9726481e-242d-4f3d-a74b-44684005507e" />    
 
 
-**Análise Técnica da Exposição dos IPs na Imagem:**  
-- ✅ Configuração realizada com sucesso conforme metodologia do curso    
+**Análise Técnica da Exposição dos IPs e Login na Imagem:**  
+- ✅ Configuração realizada com sucesso conforme metodologia do curso
+- 👤 As credenciais msfadmin são padrão do Metasploitable 2 para fins educacionais e não representam uma vulnerabilidade real   
 - 🔒 Endereços na faixa 192.168.56.0/24 - rede host-only do VirtualBox (sem internet)    
 - 🌐 **Segmento de rede isolado** - tráfego restrito ao ambiente local  
 - 📊 Segue o padrão de documentação técnica comum em laboratórios de pentest    
