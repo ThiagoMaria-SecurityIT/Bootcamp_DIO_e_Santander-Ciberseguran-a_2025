@@ -32,6 +32,7 @@ Não é a versão final do projeto
 ## Configuração do Ambiente
 - Duas máquinas virtuais no VirtualBox (Kali Linux + Metasploitable 2)
 - Rede interna configurada (host-only)
+- Ferramenta Nmap para varredura na rede  
 - Ferramenta Medusa para ataques de força bruta
 
 ## Serviços em Teste
