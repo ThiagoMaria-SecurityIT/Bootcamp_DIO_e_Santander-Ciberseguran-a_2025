@@ -2,7 +2,7 @@
 
 Repositório com os exercícios, laboratórios e tarefas realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
 >[!Tip]  
->Já comecei a fazer os labs, confira o que eu mais gostei até agora: [Laboratório Kali Linux & Metasploitable](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025)
+>Já comecei a fazer os labs, confira o que eu mais gostei até agora: [Laboratório Kali Linux & Metasploitable](security-training-lab)
 
 ## 📈 Andamento
 
