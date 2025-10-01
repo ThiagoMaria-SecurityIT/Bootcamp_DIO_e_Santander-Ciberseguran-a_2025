@@ -28,6 +28,22 @@ Ambiente configurado e testes iniciais em andamento. Documentação sendo elabor
 - Evidências dos testes
 - Dicas de configurações
 
+Imagem abaixo: Máquinas virtuais configuradas no VirtualBox, rede configurada, ataque no FTP com Medusa após varredura com Nmap.   
+    
+<img width="1763" height="970" alt="image" src="https://github.com/user-attachments/assets/9726481e-242d-4f3d-a74b-44684005507e" />    
+
+
+**Análise Técnica da Exposição dos IPs na Imagem:**  
+- ✅ Configuração realizada com sucesso conforme metodologia do curso    
+- 🔒 Endereços na faixa 192.168.56.0/24 - rede host-only do VirtualBox (sem internet)    
+- 🌐 **Segmento de rede isolado** - tráfego restrito ao ambiente local  
+- 📊 Segue o padrão de documentação técnica comum em laboratórios de pentest    
+- 🔍 Demonstra corretamente conceitos de redes privadas sem exposição real    
+
+Exibição segura para fins educacionais, mantendo boas práticas de documentação técnica.
+
+Não é a versão final do projeto  
+
 ---
 
 *Projeto do bootcamp Santander Cibersegurança 2025 | DIO*
