@@ -18,9 +18,9 @@ Implementar e documentar um projeto prático de segurança ofensiva em ambiente 
 - Ferramenta Medusa para ataques de força bruta
 
 ## Serviços em Teste
-- FTP
-- DVWA (Damn Vulnerable Web Application)
-- SMB
+- FTP - Testado
+- DVWA (Damn Vulnerable Web Application) - Não testado  
+- SMB - Não testado  
 
 ## Status Atual
 Ambiente configurado e testes iniciais em andamento. Documentação sendo elaborada com:
