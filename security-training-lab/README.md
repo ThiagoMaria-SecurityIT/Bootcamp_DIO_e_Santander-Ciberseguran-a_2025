@@ -1,13 +1,12 @@
 # Laboratório Kali Linux & Metasploitable
 
-🟡 **EM DESENVOLVIMENTO** - Última atualização: 30/09/2025  
+🟡 **EM DESENVOLVIMENTO** - Última atualização: 2/OUT/2025
 
 ## Objetivo
 Implementar e documentar um projeto prático de segurança ofensiva em ambiente controlado e isolado, utilizando Kali Linux e Metasploitable 2 para simular cenários de ataque de força bruta.    
 
 _Imagem abaixo: Máquinas virtuais configuradas no VirtualBox, rede configurada, ataque no FTP com Medusa após varredura com Nmap._    
 <img width="1763" height="970" alt="image" src="https://github.com/user-attachments/assets/9726481e-242d-4f3d-a74b-44684005507e" />    
-
 
 **Análise Técnica da Exposição dos IPs e Login na Imagem:**  
 - ✅ Configuração realizada com sucesso conforme metodologia do curso
@@ -23,8 +22,38 @@ Não é a versão final do projeto
 
 ---
 
-## ⚠️ Aviso Importante
-**ESTE LABORATÓRIO É EXCLUSIVAMENTE PARA FINS EDUCACIONIS**
+## Tutoriais 
+- Fiz alguns tutoriais para ajudar quem está enfrendando dificuldades nas configurações dos aplicativos e ferramentas.  
+- Espero que ajude!  
+
+### Tutorial de como baixar (download) e configurar a VirtualBox no Windows 11      
+- ▶️ Clique na imagem abaixo para ver o vídeo:    
+[![Assistir o vídeo](https://img.youtube.com/vi/VX0QesKhboI/0.jpg)](https://www.youtube.com/watch?v=VX0QesKhboI)   
+*O vídeo mostra as configurações no Windows 11 para baixar e instalar o VirtualBox.*
+
+### 🎥 Tutorial de como baixar (download) e configurar o Metasploitable 2   
+- ▶️ Clique na imagem abaixo para ver o vídeo:   
+[![Assistir o vídeo](https://img.youtube.com/vi/FprFn0oeEdE/0.jpg)](https://www.youtube.com/watch?v=FprFn0oeEdE)
+
+*O vídeo mostra as configurações (e troubleshooting) de rede no VirtualBox.*
+
+## 🔒 Sobre os IPs Mostrados no Vídeo
+
+**IPv6 (fe80::) - É Seguro?**
+- 🔐 **Endereço Local** - O IPv6 que aparece (fe80::) é do tipo "Link-Local"
+- 🌐 **Não Tem Acesso à Internet** - Roteadores bloqueiam esse tipo de endereço
+- 🏠 **Funciona Só no VirtualBox** - Como um número de telefone interno que só funciona dentro da sua casa virtual.
+- ⚠️ **Não é Roteável** - Ninguém pode acessar esse IP de fora da sua máquina
+
+**IPv4 (192.168.xx.x)**
+- ✅ **Rede Privada** - Faixa de IP reservada para redes internas
+- 🔒 **Host-Only** - Isolada pelo VirtualBox, sem conexão com internet
+- 👤 **Credenciais msfadmin** - São padrão do Metasploitable para fins educacionais
+
+---
+
+## ⚠️ Aviso Importante  
+**ESTE LABORATÓRIO É EXCLUSIVAMENTE PARA FINS EDUCACIONAIS**
 > [!CAUTION]  
 > - Todos os testes são realizados em ambiente controlado e isolado  
 > - É estritamente proibido replicar estas técnicas sem autorização explícita
@@ -50,3 +79,5 @@ Ambiente configurado e testes iniciais em andamento. Documentação sendo elabor
 ---
 
 *Projeto do bootcamp Santander Cibersegurança 2025 | DIO*
+
+
