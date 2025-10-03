@@ -194,13 +194,13 @@ for (int i = 0; i < total; i++) {
 
 ![Analogy Badge](https://img.shields.io/badge/🧠-Analogia_Super_Simples-lightblue)
 
-### Python: **Cardápio do Restaurante**
+### Linguagem Python: **Cardápio do Restaurante**
 ```
 Garçom traz pratos na ordem: entrada → prato principal → sobremesa
 Você só precisa comer cada prato que chega
 ```
 
-### C: **Receita de Cozinha**  
+### Linguagem C: **Receita de Cozinha**  
 ```
 Passo 1: Pegue ingrediente da prateleira 1
 Passo 2: Pegue ingrediente da prateleira 2  
