@@ -155,7 +155,7 @@ while (i < total) {           // Quando parar
 
 - **Início**: `int i = 0` (começa na posição 0)
 - **Parada**: `i < total` (para antes da posição 3)  
-- **Acesso**: `frutas[i]` (usa número para pegar fruta)
+- **Acesso**: `frutas[i]` (usa número para pegar fruta) → `i` nesse exemplo é uma variável do tipo inteiro (*integer* em inglês, abreviada como `int`) → armazena apenas números inteiros → então é usada como um número.  
 - **Progresso**: `i++` (avança para próxima posição)
 
 ---
