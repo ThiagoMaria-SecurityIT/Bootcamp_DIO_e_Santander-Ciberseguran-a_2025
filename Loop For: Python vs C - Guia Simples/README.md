@@ -59,7 +59,7 @@ O que parece simples esconde um sistema inteligente. Quando você usa `for`, o P
 
 1. **Cria um iterador** com `iter(frutas)`
 2. **Pede/Pega cada elementos** um por um com `next()`
-3. **Para automaticamente** quando acaba
+3. **Para automaticamente** quando acaba  
 *Obs.: elementos nesse exemplo são as frutas (maça, banana, laranja)*
 
 ```python
