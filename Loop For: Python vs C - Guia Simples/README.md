@@ -92,7 +92,7 @@ print(next(ajudante))  # "banana"
 ![Analogy Badge](https://img.shields.io/badge/👩💼-Analogia-pink)
 
 A função `next()` age como uma atendente chamando o **próximo cliente** na fila:   
-- Cada vez que a função `next()` é chamada, ela entrega o próximo elemento do iterador, exatamente como a atendente chama o próximo cliente para ser atendido após o anterior terminar.   
+- Cada vez que a função `next()` é chamada, ela entrega o próximo elemento do iterador, exatamente como a atendente chama o próximo cliente para ser atendido após o anterior terminar de ser atendido.   
 
 Quando não há mais elementos, `next()` levanta `StopIteration`, o equivalente a dizer: **"não há mais clientes na fila"**.    
 
