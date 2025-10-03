@@ -6,6 +6,8 @@
 ![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
+🟢 FINALIZADO - Essa parte não é uma atividade do curso, estude e me agradeça depois     
+
 ## 📚 Índice
 
 - [🎯 Introdução](#-introdução)
