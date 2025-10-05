@@ -4,7 +4,8 @@
 ![Cybersecurity](https://img.shields.io/badge/🔐-Cybersecurity_Examples-green)
 ![Level](https://img.shields.io/badge/👶-Beginner_Friendly-orange)
 
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/81bbda2d-cd44-44b2-b36f-972628b8976f" />  
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1dd4adf4-7621-4c96-a089-36310412d0a4" />
+
 
 
 ## 📚 Índice
