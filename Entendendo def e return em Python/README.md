@@ -4,6 +4,8 @@
 ![Cybersecurity](https://img.shields.io/badge/🔐-Cybersecurity_Examples-green)
 ![Level](https://img.shields.io/badge/👶-Beginner_Friendly-orange)
 
+🟢 FINALIZADO - Essa parte não é uma atividade do curso, estude e me agradeça depois       
+
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1dd4adf4-7621-4c96-a089-36310412d0a4" />
 
 
