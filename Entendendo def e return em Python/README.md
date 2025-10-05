@@ -4,6 +4,9 @@
 ![Cybersecurity](https://img.shields.io/badge/🔐-Cybersecurity_Examples-green)
 ![Level](https://img.shields.io/badge/👶-Beginner_Friendly-orange)
 
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/81bbda2d-cd44-44b2-b36f-972628b8976f" />  
+
+
 ## 📚 Índice
 - [🎯 Introdução ao Tema](#-introdução-ao-tema)
 - [🏗️ O que é DEF? (Criando Procedimentos)](#️-o-que-é-def-criando-procedimentos)
