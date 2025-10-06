@@ -1,6 +1,6 @@
 # Laboratório Kali Linux & Metasploitable
 
-🟡 **EM DESENVOLVIMENTO** - Última atualização: 2/OUT/2025
+🟡 **EM DESENVOLVIMENTO** - Última atualização: 6/OUT/2025
 
 ## Objetivo
 Implementar e documentar um projeto prático de segurança ofensiva em ambiente controlado e isolado, utilizando Kali Linux e Metasploitable 2 para simular cenários de ataque de força bruta.    
@@ -26,12 +26,16 @@ Não é a versão final do projeto
 - Fiz alguns tutoriais para ajudar quem está enfrendando dificuldades nas configurações dos aplicativos e ferramentas.  
 - Espero que ajude!  
 
-### Tutorial de como baixar (download) e configurar a VirtualBox no Windows 11      
+### 1. Guia de como baixar (download) e configurar a VirtualBox no Windows 11      
 - ▶️ Clique na imagem abaixo para ver o vídeo:    
 [![Assistir o vídeo](https://img.youtube.com/vi/VX0QesKhboI/0.jpg)](https://www.youtube.com/watch?v=VX0QesKhboI)   
 *O vídeo mostra as configurações no Windows 11 para baixar e instalar o VirtualBox.*
 
-### 🎥 Tutorial de como baixar (download) e configurar o Metasploitable 2   
+### 2. Guia de como baixar (download) e configurar o Kali Linux na VirtualBox no Windows 11       
+- ▶️ Clique na imagem abaixo para ver o vídeo:      
+[![Assistir o vídeo](https://img.youtube.com/vi/HEjLa-scVCA/0.jpg)](https://www.youtube.com/watch?v=HEjLa-scVCA)  
+
+### 3. 🎥 Guia passo-a-passo de como baixar (download) e configurar o Metasploitable 2   
 - ▶️ Clique na imagem abaixo para ver o vídeo:   
 [![Assistir o vídeo](https://img.youtube.com/vi/FprFn0oeEdE/0.jpg)](https://www.youtube.com/watch?v=FprFn0oeEdE)
 
