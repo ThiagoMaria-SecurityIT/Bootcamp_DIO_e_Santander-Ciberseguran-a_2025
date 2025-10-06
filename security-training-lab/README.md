@@ -33,13 +33,13 @@ Não é a versão final do projeto
 
 ### 2. Guia de como baixar (download) e configurar o Kali Linux na VirtualBox no Windows 11       
 - ▶️ Clique na imagem abaixo para ver o vídeo:      
-[![Assistir o vídeo](https://img.youtube.com/vi/HEjLa-scVCA/0.jpg)](https://www.youtube.com/watch?v=HEjLa-scVCA)  
+[![Assistir o vídeo](https://img.youtube.com/vi/HEjLa-scVCA/0.jpg)](https://www.youtube.com/watch?v=HEjLa-scVCA)   
+*O vídeo mostra como fazer o download do Kali Linux para começar a trilha de aprendizado do Santander Cibersegurança.*  
 
 ### 3. 🎥 Guia passo-a-passo de como baixar (download) e configurar o Metasploitable 2   
 - ▶️ Clique na imagem abaixo para ver o vídeo:   
-[![Assistir o vídeo](https://img.youtube.com/vi/FprFn0oeEdE/0.jpg)](https://www.youtube.com/watch?v=FprFn0oeEdE)
-
-*O vídeo mostra as configurações (e troubleshooting) de rede no VirtualBox.*
+[![Assistir o vídeo](https://img.youtube.com/vi/FprFn0oeEdE/0.jpg)](https://www.youtube.com/watch?v=FprFn0oeEdE)  
+*O vídeo mostra não só como baixar e configurar o Metasploitable mas também como resolver problemas simples (com base em troubleshooting) de rede no VirtualBox.*
 
 ## 🔒 Sobre os IPs Mostrados no Vídeo
 
