@@ -1,4 +1,4 @@
-<img width="1907" height="463" alt="image" src="https://github.com/user-attachments/assets/d84b06f5-f7c9-4f7e-8bfb-a978098fd556" />  
+![medusavshydradvwa](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/medusahydradvwa.png)
 
 🟢 FINALIZADO - Atividades concluídas e revisadas (Entregue antes do prazo)  
 
