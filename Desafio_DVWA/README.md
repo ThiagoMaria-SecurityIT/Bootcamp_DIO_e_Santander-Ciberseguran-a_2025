@@ -13,7 +13,7 @@
 **Desafio Santander Cibersegurança 2025 em parceria com a DIO**
 
 ## Índice
-1. [Visão Geral do Projeto](#1-visão-geral-do-projeto)
+1. [Visão Geral do Projeto](#1-visão-geral-do-projeto)[.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
 2. [Configuração do Ambiente](#2-configuração-do-ambiente)
 3. [Análise Inicial com cURL](#3-análise-inicial-com-curl)
 4. [Entendendo o CSRF na Prática](#4-entendendo-o-csrf-na-prática)
@@ -21,7 +21,7 @@
 6. [Análise do Código-Fonte](#6-análise-do-código-fonte)
 7. [Resultados](#7-resultados-antes-e-depois-de-entender-como-desativar-a-validação-do-csrf)
 8. [Análise Detalhada](#8-análise-detalhada-dos-resultados)
-9. [Conclusões Técnicas](#9-conclusões-técnicas) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
+9. [Conclusões Técnicas](#9-conclusões-técnicas)
 10. [Lições Aprendidas como Profissional de Segurança](#10-lições-aprendidas-como-profissional-de-segurança)
 11. [Recomendações de Mitigação](#11-recomendações-de-mitigação)
 12. [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
