@@ -1,5 +1,13 @@
 <img width="1907" height="463" alt="image" src="https://github.com/user-attachments/assets/d84b06f5-f7c9-4f7e-8bfb-a978098fd556" />  
 
+🟢 FINALIZADO - Atividades concluídas e revisadas (Entregue antes do prazo)  
+
+> [!TIP]
+> - Sucesso no Brute Force com Hydra após perceber que a Medusa não consegue lidar com CSRF.  
+> - O nível do DVWA estava no `Impossible`
+> - Foi modificado um dos scripts do DVWA (login.php), comentando uma linha expecíficia que valida os tokens de segurança CSRF
+
+
 # Desafio: Simulando um Ataque de Brute Force com Medusa e Análise de Proteções CSRF
 
 **Desafio Santander Cibersegurança 2025 em parceria com a DIO**
