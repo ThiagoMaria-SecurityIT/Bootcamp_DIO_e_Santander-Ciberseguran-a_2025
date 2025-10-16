@@ -972,10 +972,10 @@ class AdvancedBruteForcer:
 
 Este projeto demonstrou de forma prática e mensurável que:
 
-### Proteções CSRF São Extremamente Eficazes
-- **Eficácia comprovada** contra ferramentas automatizadas tradicionais
-- **Implementação simples** com grande impacto
-- **Mínimo impacto** na experiência do usuário legítimo
+### Proteções CSRF são eficazes mas podem ser contornadas   
+- **Eficácia comprovada** contra ferramentas automatizadas tradicionais (Medusa e Hydra)  
+- **Implementação simples** com grande impacto em proteção
+- **Mínimo impacto** na experiência do usuário legítimo (não consome muitos recursos do navegador ou do computador)  
 
 ### As Ferramentas Tem Limitações Significativas
 - **Medusa**: Inadequado para aplicações com CSRF
