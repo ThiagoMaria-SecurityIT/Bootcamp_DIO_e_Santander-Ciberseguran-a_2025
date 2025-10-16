@@ -604,7 +604,7 @@ hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
 ### Eficácia do CSRF como Mecanismo de Defesa
 
 **Proteção Comprovada:**
-- ✅ Bloqueia completamente ferramentas automatizadas
+- ✅ Bloqueia ferramentas automatizadas simples
 - ✅ Requer manipulação manual para bypass
 - ✅ Implementação relativamente simples
 - ✅ Impacto mínimo em usuários legítimos
