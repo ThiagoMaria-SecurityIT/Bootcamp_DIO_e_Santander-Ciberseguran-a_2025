@@ -56,10 +56,37 @@ Esse é o link do repositório com os vídeos [Laboratório Kali Linux & Metaspl
 
 ### Instalação do DVWA  
 
-Existe outro jeito de instalar o DVWA que não seja fazendo o download do Metasploitable 2.  
+Existem outros jeito de utilizar o DVWA que não seja fazendo o download do Metasploitable 2.  
 A partir daqui, todos os testes do DVWA foram feitos com a versão instalada pelo terminal do Kali Linux e não a versão que vem com o Metasploitable.  
-Porém você pode utilizar a versão que preferir, pois é a mesma ferramenta  
+Lembrando que:
 
+- Estou com o Kali Linux instalado na VirtualBox somente para esse desafio (não utilizei essa máquina virtual antes).
+- A internet foi utilizada somente para o download do DVWA pelo terminal.
+- A rede da máquina virtual com Kali foi mudada para "host only" antes de iniciar o DVWA.
+- A máquina virtual com Kali não estava compartilhando arquivos com o host (meu computador de lab de segurança).
+- A máquina virtual com Kali foi deletada após o esse desafio.
+
+ >[!Tip]
+ >- Você pode utilizar o DVWA online em sites como o TryHackMe, HackTheBox e VulnHub
+
+- Você pode utilizar a versão que preferir, pois é a mesma ferramenta    
+
+
+ > [!CAUTION]  
+ > Não instale o DVWA na sua máquina do dia-a-dia, independe da distro Linux que você utiliza  
+ > **Existem riscos significativos** em instalar o DVWA diretamente no Linux que você utiliza no dia-a-dia como:
+ >  - Configurações de segurança podem ser comprometidas
+ >  - Arquivos de configuração podem ser alterados/acidentais
+ >  - Exposição acidental à internet se serviços não forem configurados corretamente
+ >  - Vulnerabilidades reais no DVWA podem afetar seu sistema principal
+ >  - Risco de backdoors se não isolado adequadamente
+ >  - Conflito de versões (PHP, Apache, MySQL)
+ >  - Portas em uso (80, 443, 3306 podem já estar ocupadas)
+
+
+
+- Algumas configurações para outros cenários podem ser diferentes dessas:
+  
 ```bash
 # Atualização do sistema
 sudo apt update
@@ -71,7 +98,7 @@ sudo apt install dvwa
 dvwa-start
 ```
 
-**Observação**: O comando `dvwa-start` automaticamente:
+**Observação** (Desligue a internet): O comando `dvwa-start` faz automaticamente:
 - Inicia os serviços necessários (Apache, MySQL)
 - Configura o banco de dados
 - Abre o navegador padrão no endereço `http://127.0.0.1:42001/login.php`
