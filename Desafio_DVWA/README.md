@@ -19,8 +19,13 @@
 4. [Entendendo o CSRF na Prática](#4-entendendo-o-csrf-na-prática)
 5. [Testes com Medusa](#5-testes-com-medusa)
 6. [Análise do Código-Fonte](#6-análise-do-código-fonte)
-7. [Testes com Hydra](#7-testes-com-hydra)
-8. [Conclusões e Aprendizados](#8-conclusão-final) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
+7. [Resultados](#7-resultados-antes-e-depois-de-entender-como-desativar-a-validação-do-csrf)
+8. [Análise Detalhada](#8-análise-detalhada-dos-resultados)
+9. [Conclusões Técnicas](#9-conclusões-técnicas) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
+10. [Lições Aprendidas como Profissional de Segurança](#10-lições-aprendidas-como-profissional-de-segurança)
+11 [Recomendações de Mitigação](#11-recomendações-de-mitigação)
+12 [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
+13. [Conclusão Final](#conclusão-final)
 
 ## 1. Visão Geral do Projeto
 
@@ -484,18 +489,7 @@ sudo nano /usr/share/dvwa/login.php
 - Sem manutenção de sessão, tokens nunca coincidiam
 - Todas as validações falhavam, mesmo com credenciais corretas
 
-## 7. Testes com Hydra
-
-### Primeira Tentativa com Hydra
-
-**Comando Inicial:**
-```bash
-hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
-  "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" \
-  -vV -s 42001
-```
-
-## Resultados (`antes e depois` de entender como desativar a validação do CSRF)
+## 7. Resultados (`antes e depois` de entender como desativar a validação do CSRF)
 
 #### Esses resultados foram conquistados após todas as análises das ferramentas e dos sistemas requeridos (e ensinados pela DIO) no desafio. As análises estão um pouco mais pra cima dessa parte.
 
@@ -598,7 +592,7 @@ hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:use
 
 ---
 
-## Análise Detalhada dos Resultados
+## 8. Análise Detalhada dos Resultados
 
 ### Comparação Técnica Aprofundada
 
@@ -665,7 +659,7 @@ hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:use
 - **Medusa**: Não detecta nenhum cenário corretamente
 - **Hydra**: Detecta todos os cenários quando CSRF está desativado
 
-## Conclusões Técnicas
+## 9. Conclusões Técnicas
 
 ### Eficácia do CSRF como Mecanismo de Defesa
 
@@ -714,7 +708,7 @@ curl -b cookies.txt -c cookies.txt
 - Lidar com múltiplos domínios/paths
 ```
 
-### Lições Aprendidas como Profissional de Segurança
+## 10. Lições Aprendidas como Profissional de Segurança
 
 **Habilidades Desenvolvidas:**
 
@@ -749,7 +743,7 @@ Minha Abordagem:
 - **Conhecimento Multi-Ferramenta**: Versatilidade com diferentes tecnologias
 - **Documentação Técnica**: Clareza na comunicação de descobertas complexas
 
-## Recomendações de Mitigação
+## 11. Recomendações de Mitigação
 
 ### Para Desenvolvedores
 
@@ -917,7 +911,7 @@ curl -s $URL | grep -q "csrf_token" && echo "✅ CSRF detectado" || echo "❌ CS
 - Entendo as limitações de diferentes abordagens
 - Posso priorizar implementações baseado em risco
 
-## Próximos Passos e Expansão
+## 12. Próximos Passos e Expansão
 
 ### Melhorias para Este Projeto
 
@@ -988,7 +982,7 @@ class AdvancedBruteForcer:
    - Scan de vulnerabilidades
    - Relatórios automáticos
 
-## Conclusão Final
+## 13. Conclusão Final
 
 Este projeto demonstrou de forma prática e mensurável que:
 
