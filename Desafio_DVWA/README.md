@@ -495,10 +495,20 @@ hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
   -vV -s 42001
 ```
 
-##  Resultados (Antes e Depois de modificar com comentário a validação do CSRF):  
-- A ferramenta medusa mostrava [SUCCESS] em todos logins e senhas tentadas, o que não era real  
-- A ferramenta Hydra também mostrava que todas as palavras das wordlists eram válidas como logins verdadeiros, mas na verdade não eram válidos.
-    - Ou seja, foi um falso positivo 
+## Resultados (`antes e depois` de entender como desativar a validação do CSRF)
+
+#### Esses resultados foram conquistados após todas as análises das ferramentas e dos sistemas requeridos (e ensinados pela DIO) no desafio. As análises estão um pouco mais pra cima dessa parte.
+
+- **1. A ferramenta Medusa** mostrava `[SUCCESS]` em **todos** os logins e senhas tentadas nos ataques, o que não era real.
+  - Os resultados estavam estranhos - todos usernames e senhas que eu criava apareciam como "SUCCESS", indicando que eram logins válidos para acessar o sistema web DVWA. 
+  - De imediato desconfiei, e a partir desses resultados estranhos comecei uma análise detalhada (era nítido que a ferramenta não estava funcionando direito).
+  - Comecei a coletar, guardar e organizar as evidências relacionadas aos resultados estranhos da ferramenta Medusa.
+
+- **2. A ferramenta Hydra** (que também funciona igual a Medusa, fazendo ataques de brute force), também mostrava que todas as palavras (wordlists) testadas eram válidas como logins verdadeiros.
+  - Testar dois ou três logins comprovavam que não eram válidos e que as ferramentas não estavam mostrando resultados reais.
+  - Ou seja, eram resultados **falsos-positivos**.
+
+**Imagem abaixo**: ferramenta Hydra mostrando que todos os usernames e senhas são verdadeiros para acessar o sistema web DVWA.   
 
 ![falsopositivodahydra](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/hydra1.png) 
 
@@ -508,7 +518,7 @@ hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
 - Hydra também não mantinha estado de sessão
 - Cada tentativa recebia token CSRF diferente
 - Validação sempre falhava por token inválido
-- Mesmo com credenciais corretas, acesso era bloqueado
+- Mesmo com credenciais corretas, o acesso era bloqueado
 
 ### Teste Após Desativar Validação CSRF
 
@@ -529,15 +539,17 @@ hydra -L username.txt -P passwords.txt 127.0.0.1 http-post-form \
 - Depois desativei algumas outras partes do código para não gerar os Tokens mas mesmo assim a Medusa não conseguiu realizar com sucesso o ataque de Brute Force no formulário web da DVWA.    
 - Não vou colocar todos os testes porque não funcionaram, pois todos os níveis de dificuldade do DVWA tem a geração de token, tanto o low, até o Impossible.    
 - Para a Medusa funcionar, teria que remover a geração de Tokens em cada um dos níveis, não só no login.php.    
-- Como a Hydra funcionou e a já era esperado que a Medusa não funcionária, pois não tem como gerenciar Brute Force com Tokens, partir para a conclusão do desafio.    
+- Como a Hydra funcionou e a já era esperado que a Medusa não funcionária, pois não tem como gerenciar Brute Force com Tokens na Medusa, partir para a conclusão do desafio.    
 - A ferramenta Medusa funcionou normalmente atacando o Metasploitable, como ftp, que exige só uma linha de comando para concluir o ataque com sucesso.    
 
 
-**Imagem 1:** colocando // na linha do `checkToken` para desativar a validação do CSRF no DVWA (script: login.php) 
+**Imagem 1:** colocando "//" na linha do `checkToken` para desativar a validação do CSRF no DVWA (script: login.php)   
+
 ![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/loginphpcomment.png)   
 
 - **Teste 1**: Mesmo desativando o checkToken, os tokens ainda eram gerados, então tentei o BruteForce com o mesmo token da sessão.   
 **Image 2:** Resultado após comentar // na linha do checkToken, com Token no comando de ataque diferente do token da sessão = Funcionou
+  
 ![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/hydrasuccess.png) 
 
 - **Teste 2**: Minha lógica continuou no que deu certo: "Se o ataque funcionou com tokens deiferentes pois os tokens não são validados (desativamos comentando com "//"), então não precisa dos números e letras dos tokens no comando do ataque."
@@ -546,7 +558,7 @@ hydra -L username.txt -P passwords.txt 127.0.0.1 http-post-form \
          - Mas não, a Medusa não conseguiu fazer o ataque com sucesso, pois mesmo que não exista a validação dos tokens, eles `AINDA` estavam sendo gerados.
          - Conclusão:
            -   A ferramenta Medusa não consegue lidar com tokens em ataques de brute force sozinha.
-           -   Já a Hydra consegue lidar com tokens gerados, sozinha, mas não consegue lidar com a validação dos tokens (precisa de outras ferramentas).
+           -   Já a Hydra consegue lidar com tokens gerados, sozinha, mas não consegue lidar com a validação dos tokens (precisa de outras ferramentas).  
     
       
   
