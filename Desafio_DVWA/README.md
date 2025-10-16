@@ -26,6 +26,7 @@
 11. [Recomendações de Mitigação](#11-recomendações-de-mitigação)
 12. [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
 13. [Conclusão Final](#13-conclusão-final)
+14. [About Me](#14-about-me)
 
 ## 1. Visão Geral do Projeto
 
@@ -1047,4 +1048,24 @@ hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:use
 ```
 
 *"A segurança não é um produto, mas um processo contínuo de aprendizado e adaptação."*
+
+---
+
+## 14. About Me & Contact
+
+**Thiago Maria - From Brazil to the World 🌎**  
+*Senior Information Security Professional | Security Risk & Compliance Specialist | AI Security Researcher | Software Developer | Post-Quantum Cryptography Enthusiast*
+
+My passion for programming and my professional background in security analysis led me to create this GitHub account to share my knowledge of security information, cybersecurity, Python, and AI development practices. My work primarily focuses on prioritizing security in organizations while ensuring usability and productivity.
+
+Let's Connect:  
+
+👇🏽 Click on the badges below:  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/thiago-cequeira-99202239/)  
+[![Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-AI_projects-yellow)](https://huggingface.co/ThiSecur)  
+ 
+## Ways to Contribute:   
+ Want to see more upgrades? Help me keep it updated!    
+ [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-red)](https://github.com/sponsors/ThiagoMaria-SecurityIT) 
 
