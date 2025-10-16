@@ -1,4 +1,4 @@
-![medusavshydradvwa](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/medusahydradvwa.png)
+![medusavshydradvwa](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/medusahydradvwa.png)
 
 🟢 FINALIZADO - Atividades concluídas e revisadas (Entregue antes do prazo)  
 
@@ -532,14 +532,25 @@ hydra -L username.txt -P passwords.txt 127.0.0.1 http-post-form \
 - A ferramenta Medusa funcionou normalmente atacando o Metasploitable, como ftp, que exige só uma linha de comando para concluir o ataque com sucesso.    
 
 
-**Imagem 1:** colocando // na linha do `checkToken` para desativar a validação do CSRF no DVWA  
-<img width="1122" height="580" alt="image" src="https://github.com/user-attachments/assets/1a783491-208f-48a7-9d19-df441f9695f1" />   
+**Imagem 1:** colocando // na linha do `checkToken` para desativar a validação do CSRF no DVWA (script: login.php) 
+![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/loginphpcomment.png)   
 
-**Image 2:** Resultado após comentar // na linha do checkToken com Token diferente = Funcionou
-<img width="1123" height="580" alt="image" src="https://github.com/user-attachments/assets/2159f35e-899b-4eb0-a10a-0993e73b1392" />  
+- **Teste 1**: Mesmo desativando o checkToken, os tokens ainda eram gerados, então tentei o BruteForce com o mesmo token da sessão.   
+**Image 2:** Resultado após comentar // na linha do checkToken, com Token no comando de ataque diferente do token da sessão = Funcionou
+![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/hydrasuccess.png) 
 
-**Image 3:** Sucesso após rodar a Hydra com o checkToken desativado  
-![](hydrasucessoweb.png)
+- **Teste 2**: Minha lógica continuou no que deu certo: "Se o ataque funcionou com tokens deiferentes pois os tokens não são validados (desativamos comentando com "//"), então não precisa dos números e letras dos tokens no comando do ataque."
+    - Então removi o token do comando de ataque da Hydra, comprovando que minha lógica estava certa: Não precisa de token no ataque `SE` não existe a validação dos mesmos.
+    - A lógica continuou nos tokens, "se a Hydra funcionou, vou testar se a Medusa também funciona agora que os tokens não são validados".
+         - Mas não, a Medusa não conseguiu fazer o ataque com sucesso, pois mesmo que não exista a validação dos tokens, eles `AINDA` estavam sendo gerados.
+         - Conclusão:
+           -   A ferramenta Medusa não consegue lidar com tokens em ataques de brute force sozinha.
+           -   Já a Hydra consegue lidar com tokens gerados, sozinha, mas não consegue lidar com a validação dos tokens (precisa de outras ferramentas).
+    
+      
+  
+**Image 3:** Sucesso após rodar a Hydra sem expecificar um token no comando de ataque do Terminal (pois o checkToken estava desativado no login.php)  
+![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/hydrasucessoweb.png)
 
 
 
