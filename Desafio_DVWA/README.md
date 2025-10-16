@@ -57,7 +57,7 @@ Esse é o link do repositório com os vídeos [Laboratório Kali Linux & Metaspl
 ### Instalação do DVWA  
 
 Existe outro jeito de instalar o DVWA que não seja fazendo o download do Metasploitable 2.  
-A partir daqui, todos os testes do DVWA foram feitos com a versão instalada pelo terminal do Kali Linux e não versão que vem com o Metasploitable.  
+A partir daqui, todos os testes do DVWA foram feitos com a versão instalada pelo terminal do Kali Linux e não a versão que vem com o Metasploitable.  
 Porém você pode utilizar a versão que preferir, pois é a mesma ferramenta  
 
 ```bash
