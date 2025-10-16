@@ -213,7 +213,7 @@ CSRF (Cross-Site Request Forgery) é um mecanismo de segurança que:
 
 **Teste 1 - Token Estático:**
 ```bash
-# Tentativa com token fixo (deve falhar)
+# Tentativa com token fixo 
 curl -X POST http://127.0.0.1:42001/login.php \
   -d "username=admin&password=password&Login=Login&user_token=123456" \
   -s -w "Status: %{http_code}\n"
@@ -221,7 +221,7 @@ curl -X POST http://127.0.0.1:42001/login.php \
 
 **Teste 2 - Sem Token:**
 ```bash
-# Tentativa sem token (deve falhar)
+# Tentativa sem token 
 curl -X POST http://127.0.0.1:42001/login.php \
   -d "username=admin&password=password&Login=Login" \
   -s -w "Status: %{http_code}\n"
