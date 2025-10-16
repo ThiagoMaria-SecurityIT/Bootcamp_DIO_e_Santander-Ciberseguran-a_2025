@@ -13,14 +13,14 @@
 **Desafio Santander Cibersegurança 2025 em parceria com a DIO**
 
 ## Índice
-1. [Visão Geral do Projeto](#visão-geral-do-projeto)
-2. [Configuração do Ambiente](#configuração-do-ambiente)
-3. [Análise Inicial com cURL](#análise-inicial-com-curl)
-4. [Entendendo o CSRF na Prática](#entendendo-o-csrf-na-prática)
-5. [Testes com Medusa](#testes-com-medusa)
-6. [Análise do Código-Fonte](#análise-do-código-fonte)
-7. [Testes com Hydra](#testes-com-hydra)
-8. [Conclusões e Aprendizados](#conclusão-final) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
+1. [Visão Geral do Projeto](#1-visão-geral-do-projeto)
+2. [Configuração do Ambiente](#2-configuração-do-ambiente)
+3. [Análise Inicial com cURL](#3-análise-inicial-com-curl)
+4. [Entendendo o CSRF na Prática](#4-entendendo-o-csrf-na-prática)
+5. [Testes com Medusa](#5-testes-com-medusa)
+6. [Análise do Código-Fonte](#6-análise-do-código-fonte)
+7. [Testes com Hydra](#7-testes-com-hydra)
+8. [Conclusões e Aprendizados](#8-conclusão-final) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
 
 ## 1. Visão Geral do Projeto
 
