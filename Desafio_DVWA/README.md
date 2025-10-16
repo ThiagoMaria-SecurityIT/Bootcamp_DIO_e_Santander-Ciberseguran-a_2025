@@ -22,7 +22,7 @@
 7. [Testes com Hydra](#testes-com-hydra)
 8. [Conclusões e Aprendizados](#conclusão-final) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
 
-## Visão Geral do Projeto
+## 1. Visão Geral do Projeto
 
 ### Objetivo Principal
 Este projeto teve como objetivo principal entender na prática como mecanismos de segurança modernos, especificamente proteções CSRF (Cross-Site Request Forgery), impactam a eficácia de ferramentas automatizadas de brute force. Como profissional de segurança em constante evolução, busquei ir além do uso superficial de ferramentas e compreender os porquês por trás dos sucessos e falhas.
@@ -42,7 +42,7 @@ Adotei uma abordagem científica para o projeto:
 - **cURL**: Ferramenta essencial para análise manual
 - **GitHub**: Plataforma para documentação e portfólio
 
-## Configuração do Ambiente
+## 2. Configuração do Ambiente
 
 ### Download, Configuração e Instação do Kali e Metasploitable 2 na VirtualBox  
 
@@ -124,7 +124,7 @@ Formulário de Login (/login.php)
 Mecanismo CSRF (Proteção)
 ```
 
-## Análise Inicial com cURL
+## 3. Análise Inicial com cURL
 
 ### Primeira Investigação
 
@@ -182,7 +182,7 @@ curl http://127.0.0.1:42001/login.php -c cookies.txt -v
 
 **Descoberta Importante**: Cada requisição gerava um novo token CSRF, mesmo dentro da mesma sessão.
 
-## Entendendo o CSRF na Prática
+## 4. Entendendo o CSRF na Prática
 
 ### O Que é CSRF?
 
@@ -246,7 +246,7 @@ curl -X POST http://127.0.0.1:42001/login.php \
 
 ---
 
-## Testes com Medusa
+## 5. Testes com Medusa
 
 ### Preparação para os Testes
 
@@ -394,7 +394,7 @@ curl -X POST http://127.0.0.1:42001/login.php \
   -s -I
 ```
 
-## Análise do Código-Fonte
+## 6. Análise do Código-Fonte
 
 ### Localização do Arquivo de Login
 
@@ -484,7 +484,7 @@ sudo nano /usr/share/dvwa/login.php
 - Sem manutenção de sessão, tokens nunca coincidiam
 - Todas as validações falhavam, mesmo com credenciais corretas
 
-## Testes com Hydra
+## 7. Testes com Hydra
 
 ### Primeira Tentativa com Hydra
 
