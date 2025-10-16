@@ -2,7 +2,8 @@
 
 Repositório com os exercícios, laboratórios e tarefas realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
 >[!Tip]  
->Já comecei a fazer os labs, confira o que eu mais gostei até agora: [Laboratório Kali Linux & Metasploitable](security-training-lab)
+>1. Já comecei a fazer os labs, confira o que eu mais gostei até agora: [Laboratório Kali Linux & Metasploitable](security-training-lab)+  
+>2. Desafio Brute Force Attack no DVWA com "Medusa" no Kali Linux: [Sucesso no Brute Force nível `IMPOSSIBLE` no DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)  
 
 ## 📈 Andamento
 
