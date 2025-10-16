@@ -26,7 +26,7 @@
 11. [Recomendações de Mitigação](#11-recomendações-de-mitigação)
 12. [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
 13. [Conclusão Final](#13-conclusão-final)
-14. [About Me](#14-about-me)
+14. [About Me](#14-about-me--contact)
 
 ## 1. Visão Geral do Projeto
 
