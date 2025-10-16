@@ -23,9 +23,9 @@
 8. [Análise Detalhada](#8-análise-detalhada-dos-resultados)
 9. [Conclusões Técnicas](#9-conclusões-técnicas) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
 10. [Lições Aprendidas como Profissional de Segurança](#10-lições-aprendidas-como-profissional-de-segurança)
-11 [Recomendações de Mitigação](#11-recomendações-de-mitigação)
-12 [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
-13. [Conclusão Final](#conclusão-final)
+11. [Recomendações de Mitigação](#11-recomendações-de-mitigação)
+12. [Próximos Passos e Expansão](#12-próximos-passos-e-expansão)
+13. [Conclusão Final](#13-conclusão-final)
 
 ## 1. Visão Geral do Projeto
 
