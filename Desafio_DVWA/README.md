@@ -12,7 +12,7 @@
 5. [Testes com Medusa](#testes-com-medusa)
 6. [Análise do Código-Fonte](#análise-do-código-fonte)
 7. [Testes com Hydra](#testes-com-hydra)
-8. [Conclusões e Aprendizados](#conclusão-final)
+8. [Conclusões e Aprendizados](#conclusão-final) [.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
 
 ## Visão Geral do Projeto
 
