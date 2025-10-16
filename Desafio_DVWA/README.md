@@ -959,7 +959,7 @@ Como profissional de segurança, este projeto:
 
 ---
 
-### Tutorial rápido e secreto:
+### Tutorial rápido e secreto (nível `Impossible` ou qualquer outro):
 
 1. Instale o DVWA  
 ```bash
