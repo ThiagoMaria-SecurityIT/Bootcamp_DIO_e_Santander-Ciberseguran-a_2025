@@ -495,11 +495,12 @@ hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
   -vV -s 42001
 ```
 
-##  Resultado (Antes da Modificar com comentário a validação do CSRF):  
+##  Resultados (Antes e Depois de modificar com comentário a validação do CSRF):  
 - A ferramenta medusa mostrava [SUCCESS] em todos logins e senhas tentadas, o que não era real  
-- A ferramenta Hydra também mostrava que todas as palavras das wordlists eram válidas como logins verdadeiros, mas não eram
+- A ferramenta Hydra também mostrava que todas as palavras das wordlists eram válidas como logins verdadeiros, mas na verdade não eram válidos.
+    - Ou seja, foi um falso positivo 
 
-<img width="970" height="460" alt="image" src="https://github.com/user-attachments/assets/2e1e36c2-f14f-4238-8d23-afe062a53375" />  
+![falsopositivodahydra](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/hydra1.png) 
 
 ### Análise do Comportamento do Hydra
 
