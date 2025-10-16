@@ -1,6 +1,6 @@
 # Laboratório Kali Linux & Metasploitable
 
-🟢 **FINALIZADO** 
+🟢 **FINALIZADO** - Vídeos tutorias e desafio concluído
 
 ## Objetivo
 Implementar e documentar um projeto prático de segurança ofensiva em ambiente controlado e isolado, utilizando Kali Linux e Metasploitable 2 para simular cenários de ataque de força bruta.    
