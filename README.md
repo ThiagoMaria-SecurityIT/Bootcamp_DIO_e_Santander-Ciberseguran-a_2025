@@ -1,40 +1,85 @@
-# Trilha Santander Cibersegurança 2025
+# Trilha Santander Open Academy Cibersegurança 2025 em parceria com a **[DIO](https://github.com/digitalinnovationone)**
 
-Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
+Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.
 
-> [!Tip]  
-> 1. **Laboratórios Práticos**: Tutoriais de instalação e configuração do ambiente seguro com Kali Linux e Metasploitable 2: [Laboratório Kali Linux & Metasploitable](security-training-lab)  
-> 2. **Desafio Concluído**: Ataque de força bruta bem-sucedido no DVWA com Medusa: [Brute Force Attack - Nível IMPOSSIBLE](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)
+## 🎓 Propósito
 
-## 📈 Andamento
+Este repositório documenta minha jornada na formação do Bootcamp Santander Open Academy Cibersegurança 2025 em parceria com a DIO, servindo como:
 
-**Sistema de acompanhamento:**  
-Todas as pastas terão esta indicação de status para monitorar o andamento.
+<div align="center">
 
-- 🟢 **FINALIZADO** - Atividades concluídas e revisadas
-- 🟡 **EM DESENVOLVIMENTO** - Em fase de execução/estudo
+| Função | Descrição |
+|--------|-----------|
+| **📚 Acervo** | Competências em segurança ofensiva e defensiva |
+| **📈 Histórico** | Evolução nos conceitos e ferramentas |
+| **💡 Divulgação** | Observações e descobertas técnicas |
+</div>
 
-##  Propósito
+## 🚀 Conteúdo do Repositório
 
-Este repositório registra meu percurso na formação em cibersegurança, funcionando como:
-- Acervo de competências em segurança ofensiva e defensiva
-- Histórico de desenvolvimento nos conceitos e ferramentas
-- Local para divulgar observações e descobertas
+<div align="center">
 
-##  Materiais Produzidos
+| Categoria | Projeto | Status | Descrição |
+|-----------|---------|---------|-----------|
+| **🐍 Programação** | [Funções em Python](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Entendendo%20def%20e%20return%20em%20Python) | 🟢 FINALIZADO | Entendendo def e return em Python |
+| **🐍 Programação** | [Loops em Python vs C](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Loop%20For%3A%20Python%20vs%20C%20-%20Guia%20Simples) | 🟢 FINALIZADO | Loop For: Python vs C - Guia Simples |
+| **🛠️ Tutoriais** | [Laboratório Kali Linux](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/security-training-lab) | 🟢 FINALIZADO | Tutoriais de instalação e configuração |
+| **🔓 Desafios** | [Brute Force DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA) | 🟢 FINALIZADO | Ataque força bruta nível IMPOSSIBLE |
+| **🔒 Desafios** | Simulando um Malware de Captura de Dados | 🔴 PENDENTE - Prazo: 30/10/2025 | Última atualização: 16/10/2025 |
 
-- **Ambientes Práticos**: Preparo e uso de ferramentas empregadas no treinamento
-- **Exercícios de Programação**: Solução de questões ligadas à segurança da informação
-- **Verificação de Vulnerabilidades**: Detecção e registros
+</div>
 
-##  Como Utilizar
+## 📊 Resumo do Progresso
 
-Cada diretório ou arquivo refere-se a um tópico do bootcamp, incluindo:
-- Códigos dos exercícios
-- Relatórios dos laboratórios
-- Observações e apontamentos técnicos
-- Configurações e scripts de apoio
+```mermaid
+  pie title Distribuição de Conteúdo
+    "Programação Python (100%)" : 2
+    "Tutoriais Práticos (100%)" : 1
+    "Desafios Concluídos (50%)" : 1
+    "Desafios Pendentes (50%)" : 1
+```
+
+## 🎯 Destaques
+
+<div align="center">
+
+### 🔥 Projeto em Destaque
+[**Brute Force Attack no DVWA**](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)
+<br>
+*ataque bem-sucedido no nível IMPOSSIBLE*
+
+### 🛠️ Tutoriais em Destaque
+[**Laboratório Kali Linux**](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/security-training-lab)
+<br>
+*configuração completa do ambiente*
+
+</div>
+
+## 📈 Sistema de Andamento
+
+<div align="center">
+
+| Status | Significado |
+|--------|-------------|
+| 🟢 **FINALIZADO** | Atividades concluídas e revisadas |
+| 🟡 **EM DESENVOLVIMENTO** | Em fase de execução/estudo |
+| 🔴 **PENDENTE** | A ser iniciado |
+
+</div>
+
+## 🏆 Conquistas
+
+- ✅ **Ambientes Práticos** configurados e testados
+- ✅ **Exercícios de Programação** resolvidos
+- ✅ **Desafios de Segurança** completados
+- ✅ **Tutoriais** criados para auxiliar outros estudantes
 
 ---
 
+<div align="center">
+
 *Criado durante o Santander Cibersegurança 2025 | DIO*
+
+**🚀 Evolução contínua em Cibersegurança**
+
+</div>
