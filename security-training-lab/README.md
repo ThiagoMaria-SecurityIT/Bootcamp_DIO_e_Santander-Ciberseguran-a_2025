@@ -1,87 +1,75 @@
 # Laboratório Kali Linux & Metasploitable
 
-🟢 **FINALIZADO** - Vídeos tutorias e desafio concluído
+🟢 **FINALIZADO** - Tutoriais finalizados e ambiente testado
 
-## Objetivo
-Implementar e documentar um projeto prático de segurança ofensiva em ambiente controlado e isolado, utilizando Kali Linux e Metasploitable 2 para simular cenários de ataque de força bruta.    
+## Visão Geral
 
-_Imagem abaixo: Máquinas virtuais configuradas no VirtualBox, rede configurada, ataque no FTP com Medusa após varredura com Nmap._    
-<img width="1763" height="970" alt="image" src="https://github.com/user-attachments/assets/9726481e-242d-4f3d-a74b-44684005507e" />    
+Este repositório fornece tutoriais em vídeo para auxiliar estudantes do bootcamp Santander Cibersegurança 2025 na configuração do ambiente virtual seguro necessário para realizar os desafios práticos. Os guias focam na instalação e configuração do VirtualBox, Kali Linux e Metasploitable 2, solucionando problemas comuns enfrentados por iniciantes.
 
-**Análise Técnica da Exposição dos IPs e Login na Imagem:**  
-- ✅ Configuração realizada com sucesso conforme metodologia do curso
-- 👤 As credenciais msfadmin são padrão do Metasploitable 2 para fins educacionais e não representam uma vulnerabilidade real   
-- 🔒 Endereços na faixa 192.168.56.0/24 - rede host-only do VirtualBox (sem internet)    
-- 🌐 **Segmento de rede isolado** - tráfego restrito ao ambiente local  
-- 📊 Segue o padrão de documentação técnica comum em laboratórios de pentest    
-- 🔍 Demonstra corretamente conceitos de redes privadas sem exposição real    
+## Índice
 
-Exibição segura para fins educacionais, mantendo boas práticas de documentação técnica.
-
-Não é a versão final do projeto   
+- [Visão Geral](#visão-geral)
+- [Tutoriais em Vídeo](#tutoriais-em-vídeo)
+  - [1. Instalação do VirtualBox](#1-instalação-do-virtualbox)
+  - [2. Configuração do Kali Linux](#2-configuração-do-kali-linux)
+  - [3. Configuração do Metasploitable 2](#3-configuração-do-metasploitable-2)
+- [Segurança do Ambiente](#segurança-do-ambiente)
+- [Aviso Importante](#aviso-importante)
+- [Configuração do Laboratório](#configuração-do-laboratório)
+- [Status do Projeto](#status-do-projeto)
 
 ---
 
-## Tutoriais 
-- Fiz alguns tutoriais para ajudar quem está enfrendando dificuldades nas configurações dos aplicativos e ferramentas.  
-- Espero que ajude!  
+## Tutoriais em Vídeo
 
-### 1. Guia de como baixar (download) e configurar a VirtualBox no Windows 11      
-- ▶️ Clique na imagem abaixo para ver o vídeo:    
-[![Assistir o vídeo](https://img.youtube.com/vi/VX0QesKhboI/0.jpg)](https://www.youtube.com/watch?v=VX0QesKhboI)   
-*O vídeo mostra as configurações no Windows 11 para baixar e instalar o VirtualBox.*
+### 1. Instalação do VirtualBox
+Guia completo para download e configuração do VirtualBox no Windows 11:
+[![Assistir o vídeo](https://img.youtube.com/vi/VX0QesKhboI/0.jpg)](https://www.youtube.com/watch?v=VX0QesKhboI)  
 
-### 2. Guia de como baixar (download) e configurar o Kali Linux na VirtualBox no Windows 11       
-- ▶️ Clique na imagem abaixo para ver o vídeo:      
-[![Assistir o vídeo](https://img.youtube.com/vi/HEjLa-scVCA/0.jpg)](https://www.youtube.com/watch?v=HEjLa-scVCA)   
-*O vídeo mostra como fazer o download do Kali Linux para começar a trilha de aprendizado do Santander Cibersegurança.*  
+### 2. Configuração do Kali Linux  
+Tutorial passo a passo para instalar e configurar o Kali Linux na VirtualBox:  
+[![Assistir o vídeo](https://img.youtube.com/vi/HEjLa-scVCA/0.jpg)](https://www.youtube.com/watch?v=HEjLa-scVCA)  
 
-### 3. 🎥 Guia passo-a-passo de como baixar (download) e configurar o Metasploitable 2   
-- ▶️ Clique na imagem abaixo para ver o vídeo:   
+### 3. Configuração do Metasploitable 2  
+Guia detalhado incluindo solução de problemas de rede no VirtualBox:  
 [![Assistir o vídeo](https://img.youtube.com/vi/FprFn0oeEdE/0.jpg)](https://www.youtube.com/watch?v=FprFn0oeEdE)  
-*O vídeo mostra não só como baixar e configurar o Metasploitable mas também como resolver problemas simples (com base em troubleshooting) de rede no VirtualBox.*
 
-## 🔒 Sobre os IPs Mostrados no Vídeo
+## Segurança do Ambiente
 
-**IPv6 (fe80::) - É Seguro?**
-- 🔐 **Endereço Local** - O IPv6 que aparece (fe80::) é do tipo "Link-Local"
-- 🌐 **Não Tem Acesso à Internet** - Roteadores bloqueiam esse tipo de endereço
-- 🏠 **Funciona Só no VirtualBox** - Como um número de telefone interno que só funciona dentro da sua casa virtual.
-- ⚠️ **Não é Roteável** - Ninguém pode acessar esse IP de fora da sua máquina
+**Configuração de Rede Segura:**
+- Rede host-only isolada (192.168.56.0/24)
+- IPv6 link-local (fe80::) não roteável
+- Ambiente completamente offline
+- Credenciais padrão apenas para fins educacionais
 
-**IPv4 (192.168.xx.x)**
-- ✅ **Rede Privada** - Faixa de IP reservada para redes internas
-- 🔒 **Host-Only** - Isolada pelo VirtualBox, sem conexão com internet
-- 👤 **Credenciais msfadmin** - São padrão do Metasploitable para fins educacionais
+*Imagem do ambiente configurado:*
+<img width="1763" height="970" alt="Ambiente VirtualBox configurado" src="https://github.com/user-attachments/assets/9726481e-242d-4f3d-a74b-44684005507e" />
 
----
+## Aviso Importante
 
-## ⚠️ Aviso Importante  
 **ESTE LABORATÓRIO É EXCLUSIVAMENTE PARA FINS EDUCACIONAIS**
-> [!CAUTION]  
-> - Todos os testes são realizados em ambiente controlado e isolado  
+
+> [!IMPORTANT]  
+> - Todos os testes devem ser realizados em ambiente controlado e isolado
 > - É estritamente proibido replicar estas técnicas sem autorização explícita
-> - Não me responsabilizo pelo uso indevido deste conteúdo  
+> - As configurações mostradas são específicas para ambiente educacional
 
-## Configuração do Ambiente
-- Duas máquinas virtuais no VirtualBox (Kali Linux + Metasploitable 2)
-- Rede interna configurada (host-only)
-- Ferramenta Nmap para varredura na rede  
-- Ferramenta Medusa para ataques de força bruta
+## Configuração do Laboratório
 
-## Serviços em Teste
-- FTP - Testado
-- DVWA (Damn Vulnerable Web Application) - Não testado  
-- SMB - Não testado  
+- VirtualBox com rede host-only
+- Kali Linux como máquina de ataque
+- Metasploitable 2 como alvo vulnerável
+- Ferramentas: Nmap e Medusa
 
-## Status Atual
-Ambiente configurado e testes iniciais em andamento. Documentação sendo elaborada com:
-- Comandos utilizados
-- Evidências dos testes
-- Dicas de configurações
+## Status do Projeto
+
+🟢 **CONCLUÍDO** - Tutoriais finalizados e ambiente testado
+
+Ambiente configurado e pronto para os desafios do bootcamp. Documentação em constante atualização com:
+- Comandos utilizados nos exercícios
+- Evidências de testes
+- Dicas de configuração
 
 ---
 
-*Projeto do bootcamp Santander Cibersegurança 2025 | DIO*
-
-
+*Projeto educacional do bootcamp Santander Open Academy Cibersegurança 2025 e DIO*
