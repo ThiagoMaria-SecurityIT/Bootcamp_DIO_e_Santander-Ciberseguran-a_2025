@@ -83,3 +83,18 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 **🚀 Evolução contínua em Cibersegurança**
 
 </div>
+
+## About Me & Contact
+
+**Thiago Maria - From Brazil to the World 🌎**  
+*Senior Information Security Professional | Security Risk & Compliance Specialist | AI Security Researcher | Software Developer | Post-Quantum Cryptography Enthusiast*
+
+My passion for programming and my professional background in security analysis led me to create this GitHub account to share my knowledge of security information, cybersecurity, Python, and AI development practices. My work primarily focuses on prioritizing security in organizations while ensuring usability and productivity.
+
+Let's Connect:  
+
+👇🏽 Click on the badges below:  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/thiago-cequeira-99202239/)  
+[![Hugging Face](https://img.shields.io/badge/🤗Hugging_Face-AI_projects-yellow)](https://huggingface.co/ThiSecur)  
+ 
