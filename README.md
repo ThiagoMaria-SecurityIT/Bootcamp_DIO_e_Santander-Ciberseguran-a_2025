@@ -1,9 +1,10 @@
 # Trilha Santander Cibersegurança 2025
 
-Repositório com os exercícios, laboratórios e tarefas realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
->[!Tip]  
->1. Já comecei a fazer os labs, confira o que eu mais gostei até agora: [Laboratório Kali Linux & Metasploitable](security-training-lab)+  
->2. 🔥🔥Desafio🔥🔥 Brute Force Attack no DVWA com "Medusa" no Kali Linux: [Sucesso no Brute Force nível `IMPOSSIBLE` no DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)  
+Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
+
+> [!Tip]  
+> 1. **Laboratórios Práticos**: Tutoriais de instalação e configuração do ambiente seguro com Kali Linux e Metasploitable 2: [Laboratório Kali Linux & Metasploitable](security-training-lab)  
+> 2. **Desafio Concluído**: Ataque de força bruta bem-sucedido no DVWA com Medusa: [Brute Force Attack - Nível IMPOSSIBLE](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)
 
 ## 📈 Andamento
 
