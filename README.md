@@ -24,8 +24,8 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 | **🐍 Programação** | [Funções em Python](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Entendendo%20def%20e%20return%20em%20Python) | 🟢 FINALIZADO | Entendendo def e return em Python |
 | **🐍 Programação** | [Loops em Python vs C](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Loop%20For%3A%20Python%20vs%20C%20-%20Guia%20Simples) | 🟢 FINALIZADO | Loop For: Python vs C - Guia Simples |
 | **🛠️ Tutoriais** | [Laboratório Kali Linux](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/security-training-lab) | 🟢 FINALIZADO | Tutoriais de instalação e configuração |
-| **🔓 Desafios** | [Brute Force DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA) | 🟢 FINALIZADO | Ataque força bruta nível IMPOSSIBLE |
-| **🔒 Desafios** | Simulando um Malware de Captura de Dados | 🔴 PENDENTE - Prazo: 30/10/2025 | Última atualização: 16/10/2025 |
+| **🔓 Desafio** | [Brute Force DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA) | 🟢 FINALIZADO | Ataque força bruta nível IMPOSSIBLE |
+| **🔒 Desafio** | Simulando um Malware de Captura de Dados | 🔴 PENDENTE - Prazo: 30/10/2025 | Última atualização: 16/10/2025 |
 
 </div>
 
