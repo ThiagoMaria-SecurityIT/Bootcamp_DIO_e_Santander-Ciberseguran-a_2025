@@ -1,5 +1,7 @@
 # **Desafio**: Simulando um Ataque de Brute Force de Senhas com Medusa em FTP no Metasploitable 2
 
+🟢 FINALIZADO - Simulação concluída com êxito.   
+
 > [!IMPORTANT]
 >  Este tutorial utiliza o Metasploitable 2 baixado da Sourceforge.  
 > As VMs Kali e Metasploitable 2 estão configuradas na mesma rede **host-only** no VirtualBox.
@@ -13,10 +15,10 @@
 
 - [🔧 Pré-requisitos](#-pré-requisitos)
 - [🎯 Objetivos do Tutorial](#-objetivos-do-tutorial)
-- [🔍 Passo 1: Descobrir o IP do Metasploitable 2](#-passo-1-descobrir-o-ip-do-metasploitable-2)
-- [📡 Passo 2: Escanear serviços do Metasploitable](#-passo-2-escanear-serviços-do-metasploitable)
-- [🔐 Passo 3: Conectar via FTP](#-passo-3-conectar-via-ftp)
-- [💣 Passo 4: Ataque de Força Bruta com Medusa](#-passo-4-ataque-de-força-bruta-com-medusa)
+- [🔍 Passo 1: Descobrir o IP do Metasploitable 2](#passo-1-descobrir-o-ip-do-metasploitable-2)
+- [📡 Passo 2: Escanear serviços do Metasploitable](#passo-2-escanear-serviços-do-metasploitable)
+- [🔐 Passo 3: Conectar via FTP](#passo-3-conectar-via-ftp)
+- [💣 Passo 4: Ataque de Força Bruta com Medusa](#passo-4-ataque-de-força-bruta-com-medusa)
 - [🎯 Dicas Extras: Escaneamento Profissional com Nmap](#-dicas-extras-escaneamento-profissional-com-nmap)
 - [🛡️ Sistemas de Segurança e Detecção](#️-sistemas-de-segurança-e-detecção)
 - [⚠️ Avisos Importantes](#️-avisos-importantes)
@@ -48,10 +50,6 @@
 *Continue lendo para os passos práticos...*
 
 ---
-
-**By Thiago Maria**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Thiago_Maria-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/thiago-cequeira-99202239/)  
-**Bons estudos! 🚀**
 
 ## **Passo 1: Descobrir o IP do Metasploitable 2**
 
