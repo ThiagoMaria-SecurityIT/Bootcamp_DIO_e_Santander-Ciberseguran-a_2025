@@ -1,3 +1,5 @@
+![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio%20de%20For%C3%A7a%20Bruta%20em%20FTP%20do%20Metasploitable%202/metasploitable2.png)
+
 # **Desafio**: Simulando um Ataque de Brute Force de Senhas com Medusa em FTP no Metasploitable 2
 
 🟢 FINALIZADO - Simulação concluída com êxito | [Evidência](#resultado--success-)   
