@@ -11,6 +11,7 @@
 # Desafio: Simulando um Ataque de Brute Force com Medusa e Análise de Proteções CSRF
 
 **Desafio Santander Cibersegurança 2025 em parceria com a DIO**
+- O script em Python para automação de tentativas em formulário web (DVWA nível low) está aqui: [Redirect Brute Forcer](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/redirect_brute_forcer.py)  
 
 ## Índice
 1. [Visão Geral do Projeto](#1-visão-geral-do-projeto)[.](#tutorial-rápido-e-secreto-nível-impossible-ou-qualquer-outro)
