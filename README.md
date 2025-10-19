@@ -26,8 +26,8 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 | **🛠️ Tutoriais** | [Laboratório Kali Linux](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/security-training-lab) | 🟢 FINALIZADO | Tutoriais de instalação e configurações da VirtualBox, Kali Linux e Metasplotiable 2 |
 | **🔓 Desafio** | [Brute Force no DVWA](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA) | 🟢 FINALIZADO | Simulação de ataque força bruta nível IMPOSSIBLE |
 | **🔓 Desafio** | [Brute Force em FTP do Metasplotiable 2](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio%20de%20For%C3%A7a%20Bruta%20em%20FTP%20do%20Metasploitable%202) | 🟢 FINALIZADO | Simulação concluída com êxito | 
-| **🔓 Desafio** | Password Spraying em SMB | 🟡 **EM DESENVOLVIMENTO** - Em fase de execução com prazo até 30/10/2025 | Última atualização: 19/10/2025 |
-| **🔒 Desafio** | Simulando um Malware de Captura de Dados | 🔴 PENDENTE - Prazo: 30/10/2025 | Última atualização: 16/10/2025 |
+| **🔓 Desafio** | Password Spraying em SMB | 🟡 **EM DESENVOLVIMENTO** - Em fase de execução com prazo até 30/10/2025 | Última atualização: 19/OUT/2025 |
+| **🔒 Desafio** | Simulando um Malware de Captura de Dados | 🔴 PENDENTE - Prazo: 30/10/2025 | Última atualização: 16/OUT/2025 |
 
 </div>
 
