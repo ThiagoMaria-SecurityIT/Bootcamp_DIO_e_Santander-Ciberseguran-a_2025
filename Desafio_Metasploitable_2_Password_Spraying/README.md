@@ -1,4 +1,6 @@
-# Simulação de Ataque Password Spraying em SMB - Metasploitable 2
+# Desafio - Simulação de Password Spraying em SMB - Metasploitable 2  
+
+🟢 **FINALIZADO** - Atividades concluídas e revisadas 
 
 ## 📋 Visão Geral do Desafio
 
