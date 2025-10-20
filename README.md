@@ -37,8 +37,8 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
   pie title Distribuição de Conteúdo
     "Programação Python (100%)" : 2
     "Tutoriais Práticos (100%)" : 1
-    "Desafios Concluídos (50%)" : 2
-    "Desafios Pendentes (50%)" : 2
+    "Desafios Concluídos (75%)" : 3
+    "Desafios Pendentes (25%)" : 1
 ```
 
 ## 🎯 Destaques
