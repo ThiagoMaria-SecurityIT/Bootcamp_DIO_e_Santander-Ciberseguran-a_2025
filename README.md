@@ -49,7 +49,7 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 ### 🔥 Projeto em Destaque
 [**Brute Force Attack no DVWA**](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_DVWA)
 <br>
-*ataque bem-sucedido no nível IMPOSSIBLE*
+*ataque bem-sucedido no nível HIGH*
 
 ### 🛠️ Tutoriais em Destaque
 [**Laboratório Kali Linux**](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/security-training-lab)
