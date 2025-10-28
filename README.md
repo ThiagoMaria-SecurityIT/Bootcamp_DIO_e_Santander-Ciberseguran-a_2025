@@ -4,7 +4,8 @@ Repositório com os desafios, tutorias e testes práticos realizados no bootcamp
 
 __Imagem: [Certificado do curso](https://www.dio.me/certificate/UFLJOV13/share) - Bootcamp concluído com sucesso em 27 de Outubro de 2025!__ 🎉🎉🎉  
 
-<img width="892" height="405" alt="image" src="https://github.com/user-attachments/assets/2c7e99b5-41a6-4f79-8697-9a6f1af5cae1" />  
+<img width="892" height="405" alt="image" src="https://github.com/user-attachments/assets/be5ac8a0-522e-4aac-85b1-cedb4bbfd35e" />
+
 
 
 ## 🎓 Propósito
@@ -34,6 +35,7 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 | **🔓 Desafio** | [Simulação de Password Spraying em SMB](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_Metasploitable_2_Password_Spraying) | 🟢 **FINALIZADO** | Simulação concluída com êxito|
 | **🔓 Desafio** | [Simulando um Malware de Criptografia e Descriptografia](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Simulando%20um%20Malware%20de%20Criptografia%20e%20Descriptografia) | 🟢 FINALIZADO | Simulação de ransomware que criptografa e descriptografa arquivos - Desafio concluído com sucesso | 
 | **🔓 Desafio** | [Simulando um Malware de Captura de Dados](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Simulando%20um%20Malware%20de%20Captura%20de%20Dados) |  🟢 FINALIZADO  | Etapa 1: Concluída com sucesso - Etapa 2: Envio de dados remotamente - Concluída com sucesso |
+| **💡Insight** | [Como se Defender](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Como_Se_Defender.md) | 😉 **EM ETERNO DESENVOLVIMENTO**  |  Medidas defensivas em camadas contra as ameaças simuladas nesse repositório, conscientização e melhores práticas de segurança  |
 
 </div>
 
