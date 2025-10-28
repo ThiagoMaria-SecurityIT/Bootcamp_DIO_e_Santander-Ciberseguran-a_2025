@@ -28,7 +28,7 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 | **🔓 Desafio** | [Simulação de Brute Force em FTP do Metasplotiable 2](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio%20de%20For%C3%A7a%20Bruta%20em%20FTP%20do%20Metasploitable%202) | 🟢 FINALIZADO | Simulação concluída com êxito | 
 | **🔓 Desafio** | [Simulação de Password Spraying em SMB](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Desafio_Metasploitable_2_Password_Spraying) | 🟢 **FINALIZADO** | Simulação concluída com êxito|
 | **🔓 Desafio** | [Simulando um Malware de Criptografia e Descriptografia](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Simulando%20um%20Malware%20de%20Criptografia%20e%20Descriptografia) | 🟢 FINALIZADO | Simulação de ransomware que criptografa e descriptografa arquivos - Desafio concluído com sucesso | 
-| **🔒 Desafio** | [Simulando um Malware de Captura de Dados](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Simulando%20um%20Malware%20de%20Captura%20de%20Dados) |  🟡 **EM DESENVOLVIMENTO** Simulação em duas etapas - Prazo 30/OUT/2025 | Etapa 1: Concluída com sucesso - Etapa 2: Envio de dados remotamente - Em desenvolvimento - Última atualização: 27/OUT/2025 |
+| **🔓 Desafio** | [Simulando um Malware de Captura de Dados](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/tree/main/Simulando%20um%20Malware%20de%20Captura%20de%20Dados) |  🟢 FINALIZADO  | Etapa 1: Concluída com sucesso - Etapa 2: Envio de dados remotamente - Concluída com sucesso |
 
 </div>
 
@@ -38,8 +38,8 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
   pie title Distribuição de Conteúdo
     "Programação Python (100%)" : 2
     "Tutoriais Práticos (100%)" : 1
-    "Desafios Concluídos (80%)" : 4
-    "Desafios Pendentes (20%)" : 1
+    "Desafios Concluídos (100%)" : 5
+    "Desafios Pendentes (0%)" : 0
 ```
 
 ## 🎯 Destaques
