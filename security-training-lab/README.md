@@ -9,7 +9,7 @@ Este repositório fornece tutoriais em vídeo para auxiliar estudantes do bootca
 ## Índice
 
 - [Visão Geral](#visão-geral)
-- [Tutoriais em Vídeo](#tutoriais-em-vídeo)
+- [Tutoriais em Vídeo](#tutoriais-em-vídeo---clique-nas-imagens-para-assistir)
   - [1. Instalação do VirtualBox](#1-instalação-do-virtualbox)
   - [2. Configuração do Kali Linux](#2-configuração-do-kali-linux)
   - [3. Configuração do Metasploitable 2](#3-configuração-do-metasploitable-2)
@@ -20,7 +20,7 @@ Este repositório fornece tutoriais em vídeo para auxiliar estudantes do bootca
 
 ---
 
-## Tutoriais em Vídeo
+## Tutoriais em Vídeo - Clique nas imagens para assistir:   
 
 ### 1. Instalação do VirtualBox
 Guia completo para download e configuração do VirtualBox no Windows 11:
