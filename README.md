@@ -1,6 +1,11 @@
 # Trilha Santander Open Academy Cibersegurança 2025 em parceria com a **[DIO](https://github.com/digitalinnovationone)**
 
-Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.
+Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
+
+__Imagem: [Certificado do curso](https://www.dio.me/certificate/UFLJOV13/share) - Bootcamp concluído com sucesso em 27 de Outubro de 2025!__ 🎉🎉🎉  
+
+<img width="892" height="405" alt="image" src="https://github.com/user-attachments/assets/2c7e99b5-41a6-4f79-8697-9a6f1af5cae1" />  
+
 
 ## 🎓 Propósito
 
