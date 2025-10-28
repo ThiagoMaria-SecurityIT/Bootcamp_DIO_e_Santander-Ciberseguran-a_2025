@@ -2,7 +2,7 @@
 
 Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
 
-__Imagem: [Certificado do curso](https://www.dio.me/certificate/UFLJOV13/share) - Bootcamp concluído com sucesso em 27 de Outubro de 2025!__ 🎉🎉🎉   
+__Imagem: [Certificado do bootcamp](https://www.dio.me/certificate/UFLJOV13/share) concluído com sucesso em 27 de Outubro de 2025!__ 🎉🎉🎉   
 <div align="center">
 <img width="582" height="485" alt="image" src="https://github.com/user-attachments/assets/743a05c8-2cff-4321-abd8-c279c3d922ec" />
 </div>
