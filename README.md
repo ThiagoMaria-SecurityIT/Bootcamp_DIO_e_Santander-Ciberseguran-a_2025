@@ -1,4 +1,4 @@
-# Trilha Santander Open Academy Cibersegurança 2025 em parceria com a **[DIO](https://github.com/digitalinnovationone)**
+# Bootcamp Santander Open Academy Cibersegurança 2025 em parceria com a **[DIO](https://github.com/digitalinnovationone)**
 
 Repositório com os desafios, tutorias e testes práticos realizados no bootcamp **Santander Cibersegurança 2025** em parceria com a **[DIO](https://github.com/digitalinnovationone)**.  
 
@@ -88,7 +88,7 @@ Este repositório documenta minha jornada na formação do Bootcamp Santander Op
 
 <div align="center">
 
-*Criado durante o Santander Cibersegurança 2025 | DIO*
+*Criado durante o Bootcamp Santander Cibersegurança 2025 | DIO*
 
 **🚀 Evolução contínua em Cibersegurança**
 
