@@ -1,16 +1,16 @@
-# Simulando um Ataque de Brute Force de Senhas com Hydra, Medusa e Kali Linux
+# Simulando um Ataque de Brute Force de Senhas com Hydra, Medusa e Kali Linux  
+ 
+**Desafio Santander Cibersegurança 2025 em parceria com a DIO**    
 
-**Desafio Santander Cibersegurança 2025 em parceria com a DIO**  
+![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/medusahydradvwa.png)  
 
-![](https://github.com/ThiagoMaria-SecurityIT/Bootcamp_DIO_e_Santander-Ciberseguran-a_2025/blob/main/Desafio_DVWA/images/medusahydradvwa.png)
-
-🟢 **FINALIZADO** - Atividades concluídas e revisadas (Entregue antes do prazo)
+🟢 **FINALIZADO** - Atividades concluídas e revisadas (Entregue antes do prazo)  
 
 > [!Important]
 > - Sucesso no Brute Force com Hydra após perceber que a Medusa não consegue lidar com CSRF
 > - O nível do DVWA estava no `High`, padrão que vem com o Metasploitable 2
 
-## 📋 Índice
+## 1 - 📋 Índice  
 
 1. [Visão Geral do Projeto](#1-visão-geral-do-projeto)
 2. [Configuração do Ambiente](#2-configuração-do-ambiente)
