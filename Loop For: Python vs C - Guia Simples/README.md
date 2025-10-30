@@ -2,11 +2,15 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![C](https://img.shields.io/badge/C-Language-orange?logo=c)
-![Level](https://img.shields.io/badge/Level-Iniciante-green)
+![Nível](https://img.shields.io/badge/Nível-Iniciante-green)
 ![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-🟢 FINALIZADO - Essa parte não é uma atividade do curso, estude e me agradeça depois     
+🟢 FINALIZADO   
+>[!tip]  
+>- Programação em C não é uma atividade do curso, porém o estudo do Loop For no Python é uma atividade do curso.  
+>- O Loop for é um dos fundamentos para entender como algumas ferramentas do Kali Linux funcionam.
+>- Esse estudo do Loop For no Python vs C é uma forma de entender melhor como o Python **automatiza processos** e facilita a utilização da programação. 
 
 ## 📚 Índice
 
