@@ -71,4 +71,11 @@ Renovo meus agradecimentos ao **Santander** e à **DIO** por esta valiosa jornad
 
 ---
 
-*Repositório educativo para o Bootcamp Santander OpenAcademy Cibersegurança 2025 & DIO*
+*Repositório educativo para o Bootcamp Santander OpenAcademy Cibersegurança 2025 & DIO*  
+
+Observação: Essa parte é uma iniciativa minha, nenhuma das informações contidas nesse ".md" tem no curso ou é requerimento para conclusão do curso.    
+Espero que minha experência descrita nessa parte (de forma simplificada) te ajude a entender um pouco mais sobre o tema cibersegurança.  
+
+Até mais!
+
+Thiago Maria | Senior Infosec
