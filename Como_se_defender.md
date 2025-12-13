@@ -1,4 +1,4 @@
-# 🛡️ Comno se defender e medidas de proteção
+# 🛡️ Como se defender e medidas de proteção
 
 Olá! Este repositório foi criado como parte do curso **Santander OpenAcademy Cibersegurança 2025** em parceria com a **DIO**. 
 
